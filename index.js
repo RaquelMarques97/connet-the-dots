@@ -11,10 +11,11 @@ $('.square').on('click',function(){
          $('#status-'+click_numbers).html('NOT OK');
          $('.gif').css('display','block');
          $('.start').css('display','block');
+        
     }
-    if (click_numbers === 3){
-      $('.gif2').css('display','block');
+    if (click_numbers === 3 && click_numbers == $(this).attr('order')){     
         click_numbers=0;
+        $('.gif2').css('display','block');
     }
 });
 
