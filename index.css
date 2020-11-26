@@ -1,0 +1,50 @@
+.square{
+  position:relative;
+  z-index:1;
+  height : 50px;
+  border-radius:50%;
+  width:50px;
+  font-size:20px;
+  font-weight: bold;
+  margin : 2px;
+ 
+  cursor: pointer;
+  cursor: hand;
+}
+.blue{
+  margin-left:20%;
+  background-color: blue;
+}
+.red{
+  margin-left:20%;
+  background-color: red;
+}
+.yellow{
+  background-color: yellow;
+}
+
+.three{
+  top:5%;
+  margin-left:15%;
+  transform:rotate(45deg);
+}
+
+.two {
+  top:13%;
+  margin-left:15%;
+  transform:rotate(-45deg);
+}
+
+.line {
+  background-color: green;
+  position: absolute;
+  z-index:0;
+ display:none;
+  height:50px;
+  width:2px;
+  border:2px solid green;
+}
+
+.gif {
+  display:none;
+}
