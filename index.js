@@ -10,8 +10,17 @@ $('.square').on('click',function(){
     {
          $('#status-'+click_numbers).html('NOT OK');
          $('.gif').css('display','block');
+         $('.start').css('display','block');
     }
     if (click_numbers === 3){
+      $('.gif2').css('display','block');
         click_numbers=0;
     }
 });
+
+function start(){
+  varclick_numbers=0;
+  $('.gif').css('display','none');
+  $('.line').css('display','none');
+  $('.start').css('display','none');
+}
