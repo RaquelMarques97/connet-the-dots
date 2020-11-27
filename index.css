@@ -24,13 +24,13 @@
 }
 
 .three{
-  top:5%;
+  top:7%;
   margin-left:15%;
   transform:rotate(45deg);
 }
 
 .two {
-  top:13%;
+  top:16%;
   margin-left:15%;
   transform:rotate(-45deg);
 }

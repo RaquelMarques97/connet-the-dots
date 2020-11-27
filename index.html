@@ -11,21 +11,41 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body style="text-align:center;">
-    <div class="line 3 three"></div>
-    <div class="line 2 two"></div>
-    <div class="square blue" order="3">3
-    </div>
+    <audio  style="display:none;" id="myAudio" controls autoplay loop>
+      <source src="background.mp3" type="audio/mp3">
+  </audio>
+  <button onclick="playAudio()" type="button">Play Audio</button>
+<button onclick="pauseAudio()" type="button">Pause Audio</button> 
 
-    <div class="square yellow" order="2">2
-    </div>
-    <div class="square red" order="1">1
-    </div>
-    <!--<br class="clearBoth" />
-    <span id="status-1"></span>
-    <span id="status-2"></span>
-    <span id="status-3"></span>
-    
-    <span id="click-num">Click no. </span>-->
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
+<div style="margin-top:20px;">
+  <div class="line 3 three"></div>
+  <div class="line 2 two"></div>
+  <div class="square blue" order="3">3
+  </div>
+
+  <div class="square yellow" order="2">2
+  </div>
+  <div class="square red" order="1">1
+  </div>
+  <!--<br class="clearBoth" />
+  <span id="status-1"></span>
+  <span id="status-2"></span>
+  <span id="status-3"></span>
+  
+  <span id="click-num">Click no. </span>-->
+</div>
+   
     <div style="text-align:center;">
     <img class="gif2" src="donald-trump-cnn-email-times.gif"/>
     <img class="gif" src="giphy.gif"/>
