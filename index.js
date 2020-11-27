@@ -1,11 +1,13 @@
 
+var x = document.getElementById("myAudio"); 
 $( document ).ready(function() {
   console.log( "ready!" );
+  
   var x = document.getElementById("myAudio"); 
   x.play(); 
 });
 
-var x = document.getElementById("myAudio"); 
+
 
 function playAudio() { 
   x.play(); 
