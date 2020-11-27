@@ -1,8 +1,12 @@
 
+
+
+
+
 var x = document.getElementById("myAudio"); 
 $( document ).ready(function() {
   console.log( "ready!" );
-  
+
   var x = document.getElementById("myAudio"); 
   x.play(); 
 });
@@ -67,4 +71,6 @@ function start(){
   $('.line').css('display','none');
   $('.start').css('display','none');
   playAudio();
+  $('.jogo').css('display','block');
+  $('.instrucoes').css('display','none');
 }

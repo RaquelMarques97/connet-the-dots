@@ -7,11 +7,13 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="index.css">
   </head>
   <body style="text-align:center;">
- 
+<div class="instrucoes">
+    <h2>Une os pontos para veres a imagem</h2>
+    <button onclick="start()">Vamos Jogar</button>
+  </div>
   <audio src="background.mp3" style="display:none;" id="myAudio" controls autoplay loop>
    
 </audio>
@@ -21,7 +23,9 @@
 <audio src="crash.mp3" style="display:none;" id="crash" >
  
 </audio>
-  <div style="text-align:left;">
+
+<div class="jogo">
+<div style="text-align:left;">
     <button class="play" onclick="playAudio()" type="button">Play Audio</button>
     <button class="pause" onclick="pauseAudio()" type="button">Pause Audio</button> </div>
   
@@ -42,6 +46,7 @@
   <span id="status-3"></span>
   
   <span id="click-num">Click no. </span>-->
+</div>
 </div>
    
     <div style="text-align:center;">
