@@ -25,6 +25,13 @@ function playHohoho() {
    
 } 
 
+var z = document.getElementById("crash"); 
+
+function playCrash() { 
+  z.play(); 
+   
+} 
+
 var click_numbers = 0;
 $('.square').on('click',function(){
     click_numbers ++;
@@ -39,6 +46,7 @@ $('.square').on('click',function(){
          $('.gif').css('display','block');
          $('.start').css('display','block');
          pauseAudio();
+         playCrash();
         
     }
     if (click_numbers === 3 && click_numbers == $(this).attr('order')){     
@@ -55,4 +63,5 @@ function start(){
   $('.gif').css('display','none');
   $('.line').css('display','none');
   $('.start').css('display','none');
+  playAudio();
 }
