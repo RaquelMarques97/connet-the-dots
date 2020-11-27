@@ -16,6 +16,7 @@ $('.square').on('click',function(){
     if (click_numbers === 3 && click_numbers == $(this).attr('order')){     
         click_numbers=0;
         $('.gif2').css('display','block');
+        $('.card').css('display','block');
     }
 });
 

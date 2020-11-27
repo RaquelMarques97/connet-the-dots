@@ -52,6 +52,10 @@
 .gif2 {
   display:none;
 }
+
+.card {
+  display: none;
+}
 .start{
   display:none;
 }
